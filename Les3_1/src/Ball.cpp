@@ -9,7 +9,7 @@ Ball::Ball()
 void Ball::setup(){
 
 x = ofRandom(0, ofGetWidth());
-y = ofRandom(0,ofGetHeight());
+y = ofRandom(0, ofGetHeight());
 
 radius = ofRandom(10, 100);
 
@@ -39,8 +39,11 @@ y += speed_y;
 
 
 void Ball::display(){
+
 ofSetColor(color);
-ofCircle(x, y, radius, radius);
+//ofSetCircleResolution(3);
+//ofEllipse(x, y, radius, radius);
+
 
 
 }

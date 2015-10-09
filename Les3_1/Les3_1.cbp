@@ -126,6 +126,24 @@
 		<Unit filename="src/Ball.cpp">
 			<Option virtualFolder="src/" />
 		</Unit>
+		<Unit filename="src/Circle.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Circle.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Rect.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Rect.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Triangle.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Triangle.h">
+			<Option virtualFolder="src/" />
+		</Unit>
 		<Unit filename="src/main.cpp">
 			<Option virtualFolder="src" />
 		</Unit>

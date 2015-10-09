@@ -2,6 +2,9 @@
 
 #include "ofMain.h"
 #include "Ball.h"
+#include "Circle.h"
+#include "Triangle.h"
+#include "Rect.h"
 
 class ofApp : public ofBaseApp{
 
@@ -20,6 +23,9 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		vector<Ball>balls;
+        vector<Triangle> DrieHoek;
+		vector<Rect> VierKant;
+		vector<Circle> cirkel;
+
 		int ballcount;
 };

@@ -6,11 +6,25 @@ void ofApp::setup(){
 
 for(int t = 0; t<ballcount; t++){
 
-    Ball newBall;
-    newBall.setup();
-    balls.push_back(newBall);
+    Triangle newDriehoek;
+    newDriehoek.setup();
+    Driehoek.push_back(newDriehoek);
 
+}
 
+for(int t = 0; t<ballcount; t++){
+
+    Circle newCirkel;
+    newCirkel.setup();
+    Cirkel.push_back(newCirkel);
+
+}
+
+for(int t = 0; t<ballcount; t++){
+
+    Rect newVierkant;
+    newVierkant.setup();
+    Vierkant.push_back(newVierkant);
 
 }
 
@@ -22,8 +36,9 @@ for(int t = 0; t<ballcount; t++){
 void ofApp::update(){
 
 for(int t = 0; t<ballcount; t++){
-
-balls[t].bounce();
+        DrieHoek[t].bounce();
+        VierKant[t].bounce();
+        Cirkel[t].bounce();
 
 
 
@@ -33,13 +48,21 @@ balls[t].bounce();
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-for(int t = 0; t<ballcount; t++){
-
-balls[t].display();
-
-
-
+for(int t = 0; t<ballcount; t++)
+    {
+        DrieHoek[t].display();
 }
+
+
+	  for (int t = 0; t < DrieHoek.size(); t++)
+	  {
+		   VierKant[t].display();
+	  }
+
+	   for (int u = 0; u < DrieHoek.size(); u++)
+	   {
+		   Cirkel[u].display();
+	   }
 
 }
 
