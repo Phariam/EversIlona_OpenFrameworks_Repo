@@ -1,0 +1,2 @@
+###Swarm
+Deze interactieve lichtinstallatie reageert op de locatie van mensen die onder de installatie door lopen. Daar waar iemand is, licht de installatie op. Dit kan bereikt worden door een camera die veel beelden achter elkaar maakt en deze met elkaar vergelijkt, om zo verandering in de ruimte te bepalen en vast te stellen of er iemand in de ruimte aanwezig is. Dit kan ook behaald worden met een Kinect, maar dat is waarschijnlijk niet wat hiervoor gebruikt is. Waarschijnlijk hebben de makers met openFrameworks gewerkt om de software te creëren die nodig was. 
